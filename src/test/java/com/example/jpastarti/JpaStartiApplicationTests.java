@@ -12,7 +12,7 @@ import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@SpringBootTest
+@SpringBootTest //it will start up the whole sprinboot project with all the beans
 class JpaStartiApplicationTests {
 
     @Autowired
