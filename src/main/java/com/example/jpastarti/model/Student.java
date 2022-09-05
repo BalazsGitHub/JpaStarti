@@ -1,5 +1,7 @@
 package com.example.jpastarti.model;
 
+import org.springframework.stereotype.Component;
+
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -13,7 +15,7 @@ public class Student {
     private LocalDate born;
     private LocalTime bornTime;
 
-    @Column(length=100)
+    @Column(length = 100)
     private String name;
 
     public int getId() {
